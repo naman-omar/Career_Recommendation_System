@@ -47,6 +47,15 @@ A machine learning-based Career Recommendation System that helps students or ind
 2. app:app refers to the file name (app.py) and the Flask app object (app) inside it.
 3. This command starts the Flask application in production mode using Gunicorn as the web server.
 
+## Requirement.txt
+1. This is a list of Python dependencies (with pinned versions) used in your project, typically stored in a requirements.txt file.
+2. It includes core libraries for web frameworks (e.g., Flask, gunicorn), data science (numpy, pandas, scikit-learn), and Jupyter-related tools.
+3. These packages ensure the app runs consistently across environments, handling tasks like web serving, machine learning, API interaction, and notebook execution.
+
+
+
+
+
 
 
 
