@@ -42,7 +42,15 @@ A machine learning-based Career Recommendation System that helps students or ind
 2. It accepts POST requests at the /predict endpoint with inputs like age, skills, interests, and education.
 3. The inputs are preprocessed (TF-IDF + encoded features), fed into the model, and the predicted career is returned as a JSON response.
 
-## 
+## Procfile.unkown
+1. It tells the hosting platform (like Heroku) to run a web server using Gunicorn, a Python WSGI HTTP server.
+2. app:app refers to the file name (app.py) and the Flask app object (app) inside it.
+3. This command starts the Flask application in production mode using Gunicorn as the web server.
+
+
+
+
+
 
 
 
