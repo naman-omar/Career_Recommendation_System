@@ -36,3 +36,14 @@ A machine learning-based Career Recommendation System that helps students or ind
 2. The model predicts the most suitable career based on the trained data.
 3. Hyperparameters like `n_estimators`, `max_depth`, and `min_samples_split` were tuned using GridSearchCV.
 4. The final model gives accurate career recommendations with minimal overfitting.
+
+## App.py file description 
+1. This Flask API loads a machine learning model and encoders from a pickle file to recommend careers based on user input.
+2. It accepts POST requests at the /predict endpoint with inputs like age, skills, interests, and education.
+3. The inputs are preprocessed (TF-IDF + encoded features), fed into the model, and the predicted career is returned as a JSON response.
+
+## 
+
+
+
+
